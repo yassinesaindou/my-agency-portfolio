@@ -1,5 +1,6 @@
 import CallToAction from "./sections/CallToAction";
 import Contact from "./sections/Contact";
+import Faq from "./sections/Faq";
 import Footer from "./sections/Footer";
 import Hero from "./sections/Hero";
 import Services from "./sections/Services";
@@ -13,6 +14,7 @@ export default function Home() {
       <Services />
       <CallToAction />
       <WhyUs />
+      <Faq />
       {/* <TechStack /> */}
       <Contact />
       <Footer />
