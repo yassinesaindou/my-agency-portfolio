@@ -4,6 +4,7 @@ import Faq from "./sections/Faq";
 import Footer from "./sections/Footer";
 import Hero from "./sections/Hero";
 import Services from "./sections/Services";
+import TechStack from "./sections/TechStack";
 // import TechStack from "./sections/TechStack";
 import WhyUs from "./sections/WhyUs";
 
@@ -15,7 +16,7 @@ export default function Home() {
       <CallToAction />
       <WhyUs />
       <Faq />
-      {/* <TechStack /> */}
+      <TechStack />
       <Contact />
       <Footer />
     </div>

@@ -13,7 +13,7 @@ export default function Navbar() {
   const links = ["Services", "Why us", "Ou Tech Stack"];
   const [hidden, setHidden] = useState(true);
   return (
-    <nav className="flex gap-4 md:flex-row justify-between items-center py-2 px-4 backdrop backdrop-blur-sm border-b border-gray-700  flex-wrap text-gray-300 mx-auto w-[100%]  fixed top-0">
+    <nav className="flex z-50 gap-4 md:flex-row justify-between items-center py-2 px-4 backdrop backdrop-blur-sm border-b border-gray-700  flex-wrap text-gray-300 mx-auto w-[100%]  fixed top-0">
       <div>LOGO</div>
 
       <Menu
