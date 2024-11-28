@@ -3,7 +3,7 @@ import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
 import Hero from "./sections/Hero";
 import Services from "./sections/Services";
-import TechStack from "./sections/TechStack";
+// import TechStack from "./sections/TechStack";
 import WhyUs from "./sections/WhyUs";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
       <Services />
       <CallToAction />
       <WhyUs />
-      <TechStack />
+      {/* <TechStack /> */}
       <Contact />
       <Footer />
     </div>
